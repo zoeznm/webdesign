@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+ background-color: #ffffff;
+ color: #223222;
+ justify-content: center;
+ text-align: center;
+ width: 1200px;
+ margin:0 auto;
+}
+
+a{
+  color: #223222;
+  display: block;
+}
+header {
+  display:flex;
+  background-color: lightgray;
+  height: 100px;
+  width:100%;
+  justify-content: space-between;
+  align-items: center; 
+}
+.logo {
+  width:20%;
+  display: flex; /*로고 이미지를 중앙에 위치 시키기 위해 flex로 지정하여 수평, 수직 정렬이 되도록 하기 위해.*/
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+}
+.menu {
+  width:800px; /*서브메뉴랑 동일하게*/
+  height:100%; /*header의 높이 그대로 */
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  position:relative; /*subMenu때문에 반드시 필요*/
+}
+.menu > a {
+  width:25%;
+  padding:20px 0;
+  text-align: center;
+  color:#ffffff;
+}
+.menu > a:hover {
+  background-color: #ffffff;
+  color: #223222;
+}
+
+.submenu {
+  width:800px; /*메인메뉴 위치랑 동일하게*/
+  display:flex;
+  justify-content: space-between;
+  background:lightgoldenrodyellow;
+  position:absolute;
+  right:0;
+  top:100px; /*header 높이 만큼 내려옴*/
+  z-index:1;
+}
+.submenu > ul{
+  width:25%; /*이게 중요 */
+}
+/* 간격 벌리기 */
+.submenu > ul > li > a{
+  text-align: center;
+  padding:10px 0;
+  color:black;
+}
+.submenu > ul > li > a:hover{
+  background: rgba(255,255,255, 0.1);
+  color:lightseagreen;
+}

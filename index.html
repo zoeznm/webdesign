@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+</head>
+<body>
+  <!-- 탑 메뉴 -->
+  <header>
+    <a class="logo" href="#">
+      <img src="img/logo.png" alt="logo">
+    </a>
+    <nav class="menu">
+      <a href="#">탑</a>
+      <a href="#">아우터</a>
+      <a href="#">팬츠</a>
+      <a href="#">악세서리</a>
+      <nav class="submenu">
+        <ul>
+          <li><a href="#">블라우스</a></li>
+          <li><a href="#">티</a></li>
+          <li><a href="#">셔츠</a></li>
+          <li><a href="#">니트</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">자켓</a></li>
+          <li><a href="#">코트</a></li>
+          <li><a href="#">가디건</a></li>
+          <li><a href="#">머플러</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">청바지</a></li>
+          <li><a href="#">짧은바지</a></li>
+          <li><a href="#">긴바지</a></li>
+          <li><a href="#">레깅스</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">귀고리</a></li>
+          <li><a href="#">목걸이</a></li>
+          <li><a href="#">반지</a></li>
+          <li><a href="#">팔찌</a></li>
+        </ul>
+      </nav>
+    </nav>
+
+  </header>
+  <!-- 메인 slide -->
+  <main>
+    <a class="slide1" href="#">
+      <img src="img/slide1.jpg" alt="slide1">
+    </a>
+    <a class="slide2" href="#">
+      <img src="img/slide2.jpg" alt="slide2">
+    </a>
+    <a class="slide3" href="#">
+      <img src="img/slide3.jpg" alt="slide3">
+    </a>
+  </main>
+  <!-- 메인 탭메뉴 -->
+  <div class="contents">
+    <div>
+      <ul class="tabMenu"> <!-- tabMenu:공지사항과 갤러리 묶어줌 -->
+      <li class="active">
+        <a href="#">공지사항</a>
+        <div class="tabBG notice">
+          <ul>
+            <li><a href="#">신규회원 대상 할인 이벤트 안내
+            <span>2020.11.23</span></a></li>
+            <li><a href="#">S/S 시즌 신규 의류 신상품 안내
+            <span>2020.11.23</span></a></li>
+            <li><a href="#">반품/환불 규정에 대해 알려드립니다
+            <span>2020.11.23</span></a></li>
+            <li><a href="#">3월 재입고 품목을 알려드립니다
+            <span>2020.11.23</span></a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <a href="#">갤러리</a>
+        <div class="tabBG gallery">
+          <ul>
+            <li><a href="#"><img src="img/gallery1.jpg" alt="갤러리1"></a></li>
+            <li><a href="#"><img src="img/gallery2.jpg" alt="갤러리2"></a></li>
+            <li><a href="#"><img src="img/gallery3.jpg" alt="갤러리3"></a></li>
+          </ul>
+        </div>
+      </li>
+      </ul>  <!-- tabMenu 끝 -->
+    </div>
+    <a class="banner" href="#">
+      <img src="img/banner_img.jpg" alt="banner">
+    </a>
+    <a class="direct" href="#">
+      <img src="img/shortcut_img.jpg" alt="direct">
+    </a>
+  </div>
+  <!-- 하단 부분 -->
+  <footer>
+    <div><img src="img/logo2.png" alt="logo2"></div>
+    <div>COPYRIGHT © by WEBDESIGN. ALL RIGHTS RESERVED</div>
+    <div>
+      <img src="img/sns1.png" alt="sns1">
+      <img src="img/sns2.png" alt="sns2">
+      <img src="img/sns3.png" alt="sns3">
+    </div>
+  </footer>
+  <!-- 팝업 -->
+  <div id="modalWrap">
+    <div class="modal">
+      <h1>신규회원 대상 이벤트 안내</h1>
+      <p>
+        즐거운 쇼핑 환경을 위해 항상 노력하는 JUST 쇼핑몰입니다.
+        고객님들께 한 단계 더 나아가 보답하는 ON쇼핑몰이 되고자신규회원 대상 10% 할인 이벤트를 실시하고 있습니다. 웹과 모바일에서 모두 이용 가능하며, 수준 높은 서비스를 위해 앞으로도 꾸준히 노력할 것을 약속드립니다.
+      </p>
+      <button class="btn">닫기</button>
+    </div>
+  </div>
+</body>
+</html>
