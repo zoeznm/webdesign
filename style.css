@@ -53,6 +53,7 @@ header {
 }
 
 .submenu {
+  display: none;
   width:800px; /*메인메뉴 위치랑 동일하게*/
   display:flex;
   justify-content: space-between;
