@@ -1,3 +1,4 @@
+// 메뉴 구현
 document.addEventListener("DOMContentLoaded", function() {
   var menu = document.querySelector('.menu');
   var submenu = document.querySelector('.submenu');
