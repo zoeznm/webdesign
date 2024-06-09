@@ -19,6 +19,7 @@ a{
   color: #223222;
   display: block;
 }
+
 header {
   display:flex;
   background-color: lightgray;
